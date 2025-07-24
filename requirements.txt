@@ -1,0 +1,36 @@
+# Face-Door 智能门禁系统 Python依赖包
+
+# 计算机视觉和图像处理
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+
+# 数值计算
+numpy==1.24.3
+
+# 图像处理
+Pillow==10.0.0
+
+# 串口通信
+pyserial==3.5
+
+# 网络通信 (内置模块，无需安装)
+# socket
+# urllib
+
+# 系统相关 (内置模块，无需安装)  
+# os
+# io
+# hashlib
+# time
+
+# 注意事项:
+# 1. 确保Python版本为3.9或更高版本
+# 2. 建议使用虚拟环境安装依赖包
+# 3. 如果安装opencv-python失败，可以尝试安装opencv-python-headless
+# 4. Windows用户可能需要安装Microsoft Visual C++ Redistributable
+
+# 安装命令:
+# pip install -r requirements.txt
+
+# 或者单独安装:
+# pip install opencv-python numpy pyserial pillow
